@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mero share</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            padding: 10px;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(1, 15, 61);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            
+        }
+        .box1{
+            width: 500px;
+            height: 450px;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3),
+            -10px -10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .title{
+            text-align: center;
+        }
+        .mero{
+            color: white;
+            font-size: 30px;
+        }
+        .share{
+            color: rgb(0, 255, 106);
+            margin: auto;
+            font-size: 30px;
+        }
+        label{
+            display: block;
+            color: white;
+            margin: 8px;
+        }
+        select{
+            width: 100%;
+            height:30px;
+            border-radius: 5px;
+        }
+        .input-box label i {
+            margin-right: px;
+        }
+        input{
+           width: 100%;
+          padding: 8px;
+            border-radius: 8px;
+        }
+        button{
+            width: 100%;
+            height:30px ;
+            margin: 15px 10px 5px;
+            background-color: rgb(97, 46, 112);
+            border: 0cap;
+            color: white;
+            border-radius: 5px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .forget-link{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- mershare login form  -->
+    <div class="box">
+        <div class="box1">
+            <!-- meroshare logo  -->
+            <h2  class="title"><samp class="mero">MERO</samp> <samp class="share">SHARE</samp> </h2>
+            <!-- meroshare dp -->
+      <div class="input-box">
+        <label for=""> <i class="fa-solid fa-house">
+        </i> Depository participants</label>
+       <select>
+        <option value="">Select  your DP</option>
+        <option value="">nic asia </option>
+<option value=""> nabil bank limited</option>
+<option value="">global bank limited </option>
+<option value=""> nepal bank limited</option>
+       </select>
+      </div>
+      <!-- username box -->
+            <div class="input-box">
+            <label for=""> <i class="fa-regular fa-user"></i> Username</label>
+            <input type="name">
+        </div>
+        <!-- password box -->
+        <div  class="input-box">
+            <label for=""> <i class="fa-solid fa-lock"></i> Password</label>
+            <input type="password">
+        </div>
+        <!-- login button -->
+            <button>Login </button>
+            <!-- forget link -->
+         <div class="forget-link">
+            <a href="">Forget your password?</a>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
